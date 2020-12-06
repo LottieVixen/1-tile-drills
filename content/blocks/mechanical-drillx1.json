@@ -1,0 +1,22 @@
+{
+    "type":"Drill",
+    "name":"Mechanical Drill x1",
+    "category": "production",
+    "health": 40,
+    "tier": 2,
+    "drillTime": 600,
+    "size": 1,
+    "drawMineItem": true,
+    "requirements": [
+        {"item": "copper", "amount": 3}
+    ],
+    "consumes": {
+        "liquid": {
+            "liquid": "water",
+            "amount": 0.1,
+            "booster": true,
+            "optional": true
+        }
+    },
+    "research": "mechanical-drill"
+}

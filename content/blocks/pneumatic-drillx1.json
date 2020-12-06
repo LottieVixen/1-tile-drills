@@ -1,0 +1,23 @@
+{
+    "type":"Drill",
+    "name":"Pneumatic Drill x1",
+    "category": "production",
+    "health": 40,
+    "tier": 3,
+    "drillTime": 400,
+    "size": 1,
+    "drawMineItem": true,
+    "requirements": [
+        {"item": "copper", "amount": 5},
+        {"item": "graphite", "amount": 3}
+    ],
+    "consumes": {
+        "liquid": {
+            "liquid": "water",
+            "amount": 0.1,
+            "booster": true,
+            "optional": true
+        }
+    },
+    "research": "pneumatic-drill"
+}
